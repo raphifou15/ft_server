@@ -35,3 +35,8 @@ COPY copies files from the Docker host into the image, at a known location.
 EXPOSE documents which ports the application uses.
 CMD specifies what command to run when a container is started from the image. Notice that we can specify the command, as well as run-time arguments.
 
+
+
+Task 3: Modify a Running Website
+
+
