@@ -8,5 +8,7 @@
 ## Mots clés
 
 #Docker
-
 [docker quesque c'est ?](https://www.redhat.com/fr/topics/containers/what-is-docker)
+
+#debian:buster
+docker run -it debian:buster /bin/bash
