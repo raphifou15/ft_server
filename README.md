@@ -45,6 +45,9 @@ Wordpress, Phpmyadmin, ainsi qu’une base de donnée.
 
 ## Documentation que j'ai utilisé
 * [get started docker](https://docs.docker.com/get-started/)
+* [Docker 101 Tutorial](https://www.docker.com/101-tutorial)
+* [How to Install Nginx on Debian 10](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-debian-10)
+* [Debian 10 Buster : installer et configurer la dernière version de Nginx et PHP 7.3 FPM](https://www.geek17.com/fr/content/debian-10-buster-installer-et-configurer-la-derniere-version-de-nginx-et-php-73-fpm-105)
 
 #debian:buster 
 . docker run -it -p80:80 -p443:443 debian:buster /bin/bash
