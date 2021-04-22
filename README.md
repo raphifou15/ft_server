@@ -43,5 +43,8 @@ Wordpress, Phpmyadmin, ainsi qu’une base de donnée.
 * une fois que vous avez terminé effacer l'image docker en tapant:
 * ```sudo docker rmi "name container ou id container"```
 
+## Documentation que j'ai utilisé
+* [get started docker](https://docs.docker.com/get-started/)
+
 #debian:buster 
 . docker run -it -p80:80 -p443:443 debian:buster /bin/bash
