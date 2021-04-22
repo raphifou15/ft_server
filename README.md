@@ -55,5 +55,6 @@ Wordpress, Phpmyadmin, ainsi qu’une base de donnée.
 * [How To Install WordPress with LEMP (Nginx, MariaDB and PHP) on Debian 10](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lemp-nginx-mariadb-and-php-on-debian-10)
 * [How to Install WordPress with Nginx on Debian 10](https://www.rosehosting.com/blog/how-to-install-wordpress-with-nginx-on-debian-10/)
 * [Enabling the Nginx Directory Index Listing](https://www.keycdn.com/support/nginx-directory-index)
+
 #debian:buster 
 . docker run -it -p80:80 -p443:443 debian:buster /bin/bash
