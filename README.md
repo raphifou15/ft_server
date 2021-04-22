@@ -9,8 +9,12 @@ Wordpress, Phpmyadmin, ainsi qu’une base de donnée.
 
 ## Mots clés
 
+
 #Docker
 [docker quesque c'est ?](https://www.redhat.com/fr/topics/containers/what-is-docker)
 
-#debian:buster
-docker run -it -p80:80 -p443:443 debian:buster /bin/bash
+#serveur web 
+[Qu'est-ce qu'un serveur web ?](https://developer.mozilla.org/fr/docs/Learn/Common_questions/What_is_a_web_server#:~:text=Au%20niveau%20des%20composants%20mat%C3%A9riels,utilisateur%20qui%20visite%20le%20site.)
+
+#debian:buster 
+. docker run -it -p80:80 -p443:443 debian:buster /bin/bash
