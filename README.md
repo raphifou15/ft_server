@@ -38,6 +38,8 @@ Wordpress, Phpmyadmin, ainsi qu’une base de donnée.
 * Puis dérouler le container ce qui va lancer le serveur: deux choix s'offrira à vous le premier avec un autoindex et le second sans.
 * ```sudo docker run --env INDEX=on --name=ft_server -it --rm -p80:80 -p443:443 ft_server```
 * ```sudo docker run --env INDEX=off --name=ft_server -it --rm -p80:80 -p443:443 ft_server```
+* une fois que vous avez terminé effacer l'image docker en tapant:
+*```sudo docker rmi "name container ou id container"```*
 
 #debian:buster 
 . docker run -it -p80:80 -p443:443 debian:buster /bin/bash
