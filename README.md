@@ -50,6 +50,10 @@ Wordpress, Phpmyadmin, ainsi qu’une base de donnée.
 * [Debian 10 Buster : installer et configurer la dernière version de Nginx et PHP 7.3 FPM](https://www.geek17.com/fr/content/debian-10-buster-installer-et-configurer-la-derniere-version-de-nginx-et-php-73-fpm-105)
 * [How To Install Linux, Nginx, MariaDB, PHP (LEMP stack) on Debian 10](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mariadb-php-lemp-stack-on-debian-10)
 * [Installer un serveur LEMP sur debian 10 (nginx php mariadb)](https://minzord.fr/installer-un-serveur-lemp-sur-debian-10-nginx-php-mariadb/)
-
+* [How To Install phpMyAdmin with Nginx on Debian 10](https://www.itzgeek.com/how-tos/linux/debian/how-to-install-phpmyadmin-with-nginx-on-debian-10.html)
+* [Phpmyadmin sur Debian 10 avec Nginx](https://forum.inovaperf.fr/d/133-phpmyadmin-sur-debian-10-avec-nginx)
+* [How To Install WordPress with LEMP (Nginx, MariaDB and PHP) on Debian 10](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lemp-nginx-mariadb-and-php-on-debian-10)
+* [How to Install WordPress with Nginx on Debian 10](https://www.rosehosting.com/blog/how-to-install-wordpress-with-nginx-on-debian-10/)
+* [Enabling the Nginx Directory Index Listing](https://www.keycdn.com/support/nginx-directory-index)
 #debian:buster 
 . docker run -it -p80:80 -p443:443 debian:buster /bin/bash
