@@ -32,7 +32,7 @@ Wordpress, Phpmyadmin, ainsi qu’une base de donnée.
 #base de donnée
  [Base de données : qu’est-ce que c’est ? Définition et présentation](https://www.lebigdata.fr/base-de-donnees)
 
-## Tester mon serverur web
+## Tester mon serveur web
 * ce mettre a la racine du Dockerfile puis taper cette commande
 * ```sudo docker build -t ft_server .```
 * Puis dérouler le container ce qui va lancer le serveur: deux choix s'offrira à vous le premier avec un autoindex et le second sans.
