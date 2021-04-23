@@ -58,6 +58,6 @@ Wordpress, Phpmyadmin, ainsi qu’une base de donnée.
 * [Enabling the Nginx Directory Index Listing](https://www.keycdn.com/support/nginx-directory-index)
 * [Creating a Self-Signed SSL Certificate](https://linuxize.com/post/creating-a-self-signed-ssl-certificate/)
 * [How To Create a Self-Signed SSL Certificate for Nginx on Debian 10](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-on-debian-10#step-5-%E2%80%94-testing-encryption)
-
+* [Redirect HTTP to HTTPS in Nginx](https://linuxize.com/post/redirect-http-to-https-in-nginx/)
 #debian:buster 
 . docker run -it -p80:80 -p443:443 debian:buster /bin/bash
