@@ -61,5 +61,10 @@ Wordpress, Phpmyadmin, ainsi qu’une base de donnée.
 * [Redirect HTTP to HTTPS in Nginx](https://linuxize.com/post/redirect-http-to-https-in-nginx/)
 * [Configuration des serveurs HTTPS](http://nginx.org/en/docs/http/configuring_https_servers.html)
 
-#debian:buster 
-. docker run -it -p80:80 -p443:443 debian:buster /bin/bash
+## Tuto
+### introduction
+Ce tuto est seulement indicatif et ne montre pas la meilleur chose à faire. Pour toute amélioration vous pouvez avec plaisir en faire part.
+
+### rouler le container
+debian:buster
+```docker run -it -p80:80 -p443:443 debian:buster /bin/bash```
