@@ -97,4 +97,6 @@ tout d'abord installer vim: ```apt-get install vim -y```.
 
 ![index.php](https://github.com/raphifou15/ft_server/blob/main/img/test1.png?raw=true)
 
+```service nginx restart```
+```service php7.3-fpm start```
 
