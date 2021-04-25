@@ -68,7 +68,7 @@ Ce tuto est seulement indicatif et ne montre pas la meilleur chose à faire. Pou
 Une fois que docker est bien installer sur votre ordinateur.
 Si nginx utilise le port 80 faire ```sudo service nginx stop```
 ### rouler le container
-debian:buster
-
-```sudo docker run -it --rm -p80:80 -p443:443 debian:buster /bin/bash```
-
+debian:buster: ```sudo docker run -it --rm -p80:80 -p443:443 debian:buster /bin/bash```
+### Installer nginx
+```apt-get install update -y```
+```apt-get install upgrade -y```
