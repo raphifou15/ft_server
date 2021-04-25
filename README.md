@@ -70,5 +70,5 @@ Si nginx utilise le port 80 faire ```sudo service nginx stop```
 ### rouler le container
 debian:buster: ```sudo docker run -it --rm -p80:80 -p443:443 debian:buster /bin/bash```
 ### Installer nginx
-```apt-get install update -y```
-```apt-get install upgrade -y```
+```apt-get update -y```
+```apt-get upgrade -y```
