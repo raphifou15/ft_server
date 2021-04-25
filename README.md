@@ -90,3 +90,5 @@ debian:buster: ```sudo docker run -it --rm -p80:80 -p443:443 debian:buster /bin/
 tout d'abord installer vim: ```apt-get install vim -y```.
 
 ```vim /etc/nginx/sites-available/default``` Changer à l'interrieur les lignes 44 56 57 60 63
+
+![default1](https://github.com/raphifou15/ft_server/blob/main/img/default1.png?raw=true)
