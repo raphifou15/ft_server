@@ -85,4 +85,8 @@ debian:buster: ```sudo docker run -it --rm -p80:80 -p443:443 debian:buster /bin/
 ```apt-get install php-json -y```
 ```apt-get install php-mbstring -y```
 ```apt-get install php-xml -y```
+### configurer nginx
 
+tout d'abord installer vim: ```apt-get install vim -y```.
+
+```vim /etc/nginx/sites-available/default``` Changer à l'interrieur les lignes 44 56 57 60 63
