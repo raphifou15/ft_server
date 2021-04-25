@@ -77,3 +77,12 @@ debian:buster: ```sudo docker run -it --rm -p80:80 -p443:443 debian:buster /bin/
  Puis aller sur localhost.
 
  ![nginx](https://github.com/raphifou15/ft_server/blob/main/img/nginx.png?raw=true)
+
+### installer les dépendances pour php
+```apt-get install php-fpm -y```
+```apt-get install php-cli -y```
+```apt-get install php-mysql -y```
+```apt-get install php-json -y```
+```apt-get install php-mbstring -y```
+```apt-get install php-xml -y```
+
