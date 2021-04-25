@@ -75,4 +75,5 @@ debian:buster: ```sudo docker run -it --rm -p80:80 -p443:443 debian:buster /bin/
 ```apt-get install nginx -y```
 ```service nginx start```
  Puis aller sur localhost.
+
  ![nginx](https://github.com/raphifou15/ft_server/blob/main/img/nginx.png?raw=true)
