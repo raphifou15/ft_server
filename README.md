@@ -116,3 +116,4 @@ tout d'abord installer vim: ```apt-get install vim -y```.
 
 Changer les lignes 16 41 42
 
+![config.inc.png](https://github.com/raphifou15/ft_server/blob/main/img/config.png?raw=true)
