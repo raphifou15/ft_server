@@ -97,7 +97,22 @@ tout d'abord installer vim: ```apt-get install vim -y```.
 
 ![index.php](https://github.com/raphifou15/ft_server/blob/main/img/test1.png?raw=true)
 
-```service nginx restart```
+```service nginx restart``` 
 ```service php7.3-fpm start```
+
 ![phpinfo](https://github.com/raphifou15/ft_server/blob/main/img/phpinfo.png?raw=true)
+
+### installer mysql
+
+```apt-get install mariadb-server -y```
+
+### installer et configurer phpMyAdmin
+```apt-get install wget -y``` 
+```wget https://files.phpmyadmin.net/phpMyAdmin/5.1.0/phpMyAdmin-5.1.0-all-languages.tar.gz``` 
+```tar -zxvf phpMyAdmin-5.1.0-all-languages.tar.gz``` 
+```mv phpMyAdmin-5.1.0-all-languages /var/www/html/phpMyAdmin``` 
+```cp -pr /var/www/html/phpMyAdmin/config.sample.inc.php /var/www/html/phpMyAdmin/config.inc.php``` 
+```vim /var/www/html/phpMyAdmin/config.inc.php``` 
+
+Changer les lignes 16 41 42
 
