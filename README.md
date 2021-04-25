@@ -65,7 +65,10 @@ Wordpress, Phpmyadmin, ainsi qu’une base de donnée.
 ### introduction
 Ce tuto est seulement indicatif et ne montre pas la meilleur chose à faire. Pour toute amélioration vous pouvez avec plaisir en faire part.
 
+Une fois que docker est bien installer sur votre ordinateur.
+Si nginx utilise le port 80 faire ```sudo service nginx stop```
 ### rouler le container
 debian:buster
 
-```docker run -it -p80:80 -p443:443 debian:buster /bin/bash```
+```sudo docker run -it --rm -p80:80 -p443:443 debian:buster /bin/bash```
+
