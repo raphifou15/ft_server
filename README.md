@@ -95,3 +95,6 @@ tout d'abord installer vim: ```apt-get install vim -y```.
 
 ```vim /var/www/html/index.php``` Puis copier coller ceci dans votre fichier.
 
+![index.php](https://github.com/raphifou15/ft_server/blob/main/img/test1.png?raw=true)
+
+
