@@ -73,4 +73,4 @@ debian:buster: ```sudo docker run -it --rm -p80:80 -p443:443 debian:buster /bin/
 ```apt-get update -y```
 ```apt-get upgrade -y```
 ```apt-get install nginx -y```
-
+```service nginx start```
