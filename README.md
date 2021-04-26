@@ -133,3 +133,6 @@ aller sur ```http://localhost/phpMyAdmin/```
 Renplacer les define
 
 ![wp_config](https://github.com/raphifou15/ft_server/blob/main/img/wp_config.png?raw=true)
+
+```chown -R www-data:www-data /var/www/html```
+
