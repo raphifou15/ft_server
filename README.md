@@ -127,4 +127,6 @@ aller sur ```http://localhost/phpMyAdmin/```
 ### installer et configurer wordpress
 ```wget https://wordpress.org/latest.tar.gz```   ```tar -xvzf latest.tar.gz```   ```mv wordpress /var/www/html/```
 
+```cp /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php```
+   ```vim /var/www/html/wordpress/wp-config.php```
 
