@@ -123,3 +123,8 @@ Changer les lignes 16 41 42
 aller sur ```http://localhost/phpMyAdmin/```
 
 ![phpMyAdmin](https://github.com/raphifou15/ft_server/blob/main/img/phpMyAdmin.png?raw=true)
+
+### installer et configurer wordpress
+```wget https://wordpress.org/latest.tar.gz```   ```tar -xvzf latest.tar.gz```   ```mv wordpress /var/www/html/```
+
+
