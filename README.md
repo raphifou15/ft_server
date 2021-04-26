@@ -119,3 +119,7 @@ Changer les lignes 16 41 42
 ![config.inc.png](https://github.com/raphifou15/ft_server/blob/main/img/config.png?raw=true)
 
 ```chmod 660 /var/www/html/phpMyAdmin/config.inc.php``` ```chown -R www-data:www-data /var/www/html/phpMyAdmin```
+
+aller sur ```http://localhost/phpMyAdmin/```
+
+
