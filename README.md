@@ -143,3 +143,11 @@ Une fois dans myql tapez les instructions suivantes: ```CREATE DATABASE wpdb;```
 Taper cette adrresse dans le navigateur ```http://localhost/wordpress/```
 
 ![wordpress](https://github.com/raphifou15/ft_server/blob/main/img/wordpress.png?raw=true)
+### certificat ssl
+
+```mkdir /etc/nginx/ssl```
+
+```openssl req -newkey rsa:4096 -x509 -sha256 -days 3650 -nodes -out /etc/nginx/ssl/localhost.crt -keyout /etc/nginx/ssl/localhost.key -subj "/C=PR/ST=Paris/L=Paris/O=42/OU=raph/CN=www.localhost.com"```
+
+```vim /etc/nginx/sites-available/default```
+
