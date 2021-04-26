@@ -154,3 +154,6 @@ Taper cette adrresse dans le navigateur ```http://localhost/wordpress/```
 Ajouter et modifier les éléments ci-dessous dans le fichier
 
 ![default](https://github.com/raphifou15/ft_server/blob/main/img/default2.png?raw=true)
+
+```service nginx restart```
+
