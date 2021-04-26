@@ -159,3 +159,7 @@ Ajouter et modifier les éléments ci-dessous dans le fichier
 ### autoindex
 ```vim /etc/nginx/sites-available/default```
 ![autoindex](https://github.com/raphifou15/ft_server/blob/main/img/autoindex.png?raw=true)
+
+```service nginx restart``` Puis taper ceci dans le navigateur ```https://localhost/```Vous devriez voir cela.
+
+
