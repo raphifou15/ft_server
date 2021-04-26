@@ -142,3 +142,4 @@ Une fois dans myql tapez les instructions suivantes: ```CREATE DATABASE wpdb;```
 
 Taper cette adrresse dans le navigateur ```http://localhost/wordpress/```
 
+![wordpress](https://github.com/raphifou15/ft_server/blob/main/img/wordpress.png?raw=true)
