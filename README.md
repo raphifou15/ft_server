@@ -130,3 +130,6 @@ aller sur ```http://localhost/phpMyAdmin/```
 ```cp /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php```
    ```vim /var/www/html/wordpress/wp-config.php```
 
+Renplacer les define
+
+![wp_config](https://github.com/raphifou15/ft_server/blob/main/img/wp_config.png?raw=true)
