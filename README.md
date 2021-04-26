@@ -162,4 +162,6 @@ Ajouter et modifier les éléments ci-dessous dans le fichier
 
 ```service nginx restart``` Puis taper ceci dans le navigateur ```https://localhost/```Vous devriez voir cela.
 
+![index of](https://github.com/raphifou15/ft_server/blob/main/img/index.png?raw=true)
 
+Voila j'éspére que ce tutoriel vous aura permit d'y voir plus claire si vous voulez des explications vous avez la documentation au dessus ou vous pouvez cherchez sur le net.
