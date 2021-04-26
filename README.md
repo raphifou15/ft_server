@@ -135,4 +135,10 @@ Renplacer les define
 ![wp_config](https://github.com/raphifou15/ft_server/blob/main/img/wp_config.png?raw=true)
 
 ```chown -R www-data:www-data /var/www/html```
+### Configurer myql
+```service mysql start``` ```mysql -u root --skip-password```
+
+Une fois dans myql tapez les instructions suivantes: ```CREATE DATABASE wpdb;``` ```GRANT ALL ON *.* TO 'raph'@'localhost' IDENTIFIED BY '1234';``` ```FLUSH PRIVILEGES;``` puis ```\q``` pour quitter.
+
+Taper cette adrresse dans le navigateur ```http://localhost/wordpress/```
 
